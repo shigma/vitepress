@@ -105,8 +105,8 @@ const overflow = provideNavOverflow({
   left: var(--vp-nav-col-offset);
   z-index: -1;
   background-color: var(--vp-nav-bg-color);
-  backdrop-filter: var(--vp-nav-backdrop-filter);
   -webkit-backdrop-filter: var(--vp-nav-backdrop-filter);
+  backdrop-filter: var(--vp-nav-backdrop-filter);
   transition: background-color 0.25s;
 }
 
@@ -122,8 +122,8 @@ const overflow = provideNavOverflow({
 
   .VPNavBar.home.top::before {
     background-color: var(--vp-nav-home-bg-color);
-    backdrop-filter: none;
     -webkit-backdrop-filter: none;
+    backdrop-filter: none;
   }
 
   .VPNavBar.has-sidebar {
@@ -149,8 +149,8 @@ const overflow = provideNavOverflow({
 @media (60rem <= width < 80rem) {
   .VPNavBar.has-local-nav::before {
     background-color: transparent;
-    backdrop-filter: none;
     -webkit-backdrop-filter: none;
+    backdrop-filter: none;
   }
 }
 
